@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<script>
+
+    //creating array with constructor method (from khub)
+    
+    var chemElements = new Array("Argon", "Krypton", "Neon", "Xenon");
+    
+     //accessing the values of array
+
+    document.write(chemElements.length+"</br>"); //length of array
+    document.write(chemElements[0]+"</br>");
+    document.write(chemElements[1]+"</br>");
+    document.write(chemElements[2]+"</br>");
+    document.write(chemElements[3]+"</br>");
+
+    
+    chemElements.push("Radon"); //adding new element to array
+    document.write(chemElements[4]+"</br>");
+
+    chemElements.unshift("Helium"); //adding new element at the beginning of array
+    document.write(chemElements[0]+"</br>");
+
+    chemElements.pop(); //removing last element from array
+    document.write(chemElements.length+"</br>");
+    for (i = 0; i < chemElements.length; i++) {
+        document.write(chemElements[i]+"</br>"); }
+
+    
+     </script>
